@@ -1,10 +1,7 @@
 ***********************
 The CS:APP Data Lab
-Directions to Students
+Description adapted from UChicago CS154 handout
 ***********************
-
-Your goal is to modify your copy of bits.c so that it passes all the
-tests in btest without violating any of the coding guidelines.
 
 
 *********
@@ -26,14 +23,6 @@ Driverhdrs.pm   - Header file for optional "Beat the Prof" contest
 fshow.c		- Utility for examining floating-point representations
 ishow.c		- Utility for examining integer representations
 
-***********************************************************
-1. Modifying bits.c and checking it for compliance with dlc
-***********************************************************
-
-IMPORTANT: Carefully read the instructions in the bits.c file before
-you start. These give the coding rules that you will need to follow if
-you want full credit.
-
 Use the dlc compiler (./dlc) to automatically check your version of
 bits.c for compliance with the coding guidelines:
 
@@ -47,8 +36,7 @@ the -e switch:
 
 causes dlc to print counts of the number of operators used by each function.
 
-Once you have a legal solution, you can test it for correctness using
-the ./btest program.
+correctness can be seen with the ./btest program.
 
 *********************
 2. Testing with btest
@@ -112,8 +100,8 @@ guidelines.  Use dlc to do that.
 3. Helper Programs
 *******************
 
-We have included the ishow and fshow programs to help you decipher
-integer and floating point representations respectively. Each takes a
+ishow and fshow programs to help you decipher integer and 
+floating point representations respectively. Each takes a
 single decimal or hex number as an argument. To build them type:
 
     unix> make
